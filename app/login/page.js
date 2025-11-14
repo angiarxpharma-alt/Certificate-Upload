@@ -12,8 +12,8 @@ const DEFAULT_EMAIL = 'admin@angia.com';
 const DEFAULT_PASSWORD = 'Angia@2024';
 
 export default function LoginPage() {
-  const [email, setEmail] = useState(DEFAULT_EMAIL);
-  const [password, setPassword] = useState(DEFAULT_PASSWORD);
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
   const [isLoading, setIsLoading] = useState(false);
   const [showPassword, setShowPassword] = useState(false);
   const [rememberMe, setRememberMe] = useState(false);
